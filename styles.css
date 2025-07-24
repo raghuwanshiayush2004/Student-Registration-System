@@ -1,0 +1,135 @@
+/* Reset default margin and set base font for the entire document */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    /* Animated gradient background */
+    background: linear-gradient(135deg, #ffccbc, #e1bee7, #b2dfdb, #c8e6c9);
+    background-size: 400% 400%;
+    animation: gradientBG 12s ease infinite;
+    text-align: center;
+}
+
+/* Keyframes for the animated background gradient */
+@keyframes gradientBG {
+    0% {
+        background-position: 0% 50%;
+    }
+
+    50% {
+        background-position: 100% 50%;
+    }
+
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+/* Main heading styling */
+h1 {
+    font-size: 2em;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+/* Description text styling */
+.desc {
+    font-size: 1em;
+    margin-bottom: 20px;
+}
+
+/* Main container for form and table */
+.container {
+    display: flex;
+    justify-content: space-around;
+    /* Space elements evenly */
+    padding: 70px;
+    flex-wrap: wrap;
+    /* Allow wrapping on smaller screens */
+}
+
+/* Form container styling */
+.form-container {
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    /* Stack elements vertically */
+    gap: 20px;
+    /* Space between form elements */
+    align-items: flex-start;
+    /* Align items to the left */
+}
+
+/* Input field styling */
+.form-container input {
+    width: 100%;
+    padding: 5px;
+    border-radius: 10px;
+    /* Rounded corners */
+    border: 1px solid #ccc;
+    /* Light gray border */
+}
+
+/* Add button styling */
+.form-container button {
+    padding: 10px 25px;
+    border: none;
+    background-color: #ccc;
+    color: black;
+    border-radius: 20px;
+    /* Pill-shaped button */
+    cursor: pointer;
+    align-self: center;
+    /* Center button horizontally */
+}
+
+/* Table container styling */
+.table-container {
+    max-height: 400px;
+    /* Fixed height with scroll */
+    overflow-y: auto;
+    /* Enable vertical scrolling */
+    background-color: rgba(255, 255, 255, 0.3);
+    /* Semi-transparent white */
+    padding: 10px;
+    border-radius: 10px;
+    /* Rounded corners */
+}
+
+/* Base table styling */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    /* Remove space between borders */
+}
+
+/* Table cell and header styling */
+table,
+th,
+td {
+    border: 1px solid black;
+    padding: 8px;
+}
+
+/* Edit and Delete button base styling */
+button.edit,
+button.delete {
+    margin: 2px;
+    padding: 5px;
+    border-radius: 5px;
+    /* Slightly rounded corners */
+    cursor: pointer;
+}
+
+/* Edit button specific styling */
+button.edit {
+    background-color: #8bc34a;
+    /* Light green */
+    color: white;
+}
+
+/* Delete button specific styling */
+button.delete {
+    background-color: #e91e63;
+    /* Pink-red */
+    color: white;
+}
