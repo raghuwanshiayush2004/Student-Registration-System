@@ -1,6 +1,6 @@
 # Student Registration System
 
-# GitHub link of Project ( Student Registration System ) :- https://github.com/raghuwanshiayush2004/Student-Registration-System
+## GitHub link of Project ( Student Registration System ) :- https://github.com/raghuwanshiayush2004/Student-Registration-System
 ## Overview
 A web-based application for managing student records with functionalities to add, edit, and delete student details. The system uses localStorage to persist data between sessions.
 
