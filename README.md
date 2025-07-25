@@ -2,7 +2,7 @@
 
 ## GitHub link of Project ( Student Registration System ) :- https://github.com/raghuwanshiayush2004/Student-Registration-System
 ## Overview
-A web-based application for managing student records with functionalities to add, edit, and delete student details. The system uses localStorage to persist data between sessions.
+A weather forecast application using JavaScript, HTML, and CSS. The application should retrieve weather data from an API, display it in a user-friendly interface, and provide essential features such as location-based forecasts, current weather conditions, and extended forecasts.
 
 ## Features
 - **Add Students**: Register new students with name, ID, email, and contact number.
